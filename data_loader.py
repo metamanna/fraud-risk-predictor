@@ -4,8 +4,8 @@ import os
 import joblib
 def load_background():
     return joblib.load("encoders/background.pkl")
-def load_data():
-    path = "german_credit_cleaned.csv"
+def load_data():   
+    path = os.path.join("data", "german_credit_cleaned.csv")
     if not os.path.exists(path):
         raise FileNotFoundError(f"Dataset not found at {path}. Please ensure the file exists.")
 
