@@ -33,14 +33,14 @@ from imblearn.over_sampling import SMOTE
 from sklearn.metrics import classification_report
 
 from data_loader import load_data
-from modules.model_trainer import train_random_forest
-from modules.model_trainer import train_catboost  # already done for RF
-from modules.predict_explainer import predict_with_explanation
-from modules.input_utils import patch_missing_inputs
-from modules.nlp_sentiment import get_sentiment_score
-from modules.model_trainer import evaluate_model
-from modules.transformer_sentiment import get_transformer_sentiment
-from modules.bert_embedder import get_bert_embedding
+from model_trainer import train_random_forest
+from model_trainer import train_catboost  # already done for RF
+from predict_explainer import predict_with_explanation
+from input_utils import patch_missing_inputs
+from nlp_sentiment import get_sentiment_score
+from model_trainer import evaluate_model
+from transformer_sentiment import get_transformer_sentiment
+from bert_embedder import get_bert_embedding
 from lime.lime_tabular import LimeTabularExplainer
 from transformers import AutoTokenizer
 
