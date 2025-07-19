@@ -32,7 +32,7 @@ from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import SMOTE
 from sklearn.metrics import classification_report
 
-from modules.data_loader import load_data
+from data_loader import load_data
 from modules.model_trainer import train_random_forest
 from modules.model_trainer import train_catboost  # already done for RF
 from modules.predict_explainer import predict_with_explanation
