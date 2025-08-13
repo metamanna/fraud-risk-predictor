@@ -2,13 +2,13 @@
 A Streamlit app that predicts loan applicant creditworthiness using machine learning, explainable AI (SHAP, LIME), sentiment analysis, and PDF reporting.
 https://fraud-risk-predictor-tamannaaggarwal.streamlit.app/
 
-# 🧠 Creditworthiness Prediction Dashboard
+#  Creditworthiness Prediction Dashboard
 
 A Streamlit web app that predicts whether a loan applicant is a **Good or Bad Credit Risk** using machine learning and explainable AI. The app also integrates **SHAP**, **LIME**, **Transformer-based sentiment analysis**, and generates a downloadable **PDF report** for each prediction.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Predict credit risk (Good / Bad) using trained ML models (Random Forest, CatBoost, XGBoost)
 - 📊 SHAP and LIME explanations for model interpretability
@@ -20,7 +20,7 @@ A Streamlit web app that predicts whether a loan applicant is a **Good or Bad Cr
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - **Python**, **Streamlit**, **Pandas**, **Scikit-learn**
 - **SHAP**, **LIME**, **FPDF**
@@ -30,9 +30,8 @@ A Streamlit web app that predicts whether a loan applicant is a **Good or Bad Cr
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
-```bash
 git clone https://github.com/yourusername/credit-risk-predictor.git
 cd credit-risk-predictor
 pip install -r requirements.txt
